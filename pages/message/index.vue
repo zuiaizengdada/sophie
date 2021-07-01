@@ -1,11 +1,19 @@
 <template>
-	<view class="index">
-		消息页面
-	</view>
+	<view class="message-index"><sophie-navbar left-arrow @arrowClick="back"></sophie-navbar></view>
 </template>
 
 <script>
+// 组件
+
+// 方法
+export default {
+	name: 'message-index',
+	methods: {
+		back() {
+			console.log('back');
+		}
+	}
+};
 </script>
 
-<style>
-</style>
+<style lang="scss" scoped></style>
