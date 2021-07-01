@@ -1,0 +1,75 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/guide/guidePage1" // 引导页1
+		},
+		{
+			"path": "pages/guide/guidePage2" // 引导页2
+		},
+		{
+			"path": "pages/login/login" //登录页
+		},
+		{
+			"path": "pages/register/register" //注册页
+		},
+		{
+			"path": "pages/register/chooseGander" // 选择性别页
+		},
+		{
+			"path": "pages/register/chooseInterest" // 选择兴趣页
+		},
+		{
+			"path": "pages/register/verificationCode" // 验证码页
+		},
+		{
+			"path": "pages/resetPwd/resetPwd" // 重置密码页
+		},
+		{
+			"path": "pages/profile/index" // 个人主页页面
+		},
+		{
+			"path": "pages/message/index" // 消息页
+		},
+		{
+			"path": "pages/setting/index" // 设置页
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F7F7F7",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"titleNView": false,
+			"softinputMode": "adjustPan"
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"sophie-(.*)": "@/components/sophie-$1/sophie-$1.vue"
+		}
+
+	},
+	"tabBar": {
+		
+		"borderStyle": "black",
+		"backgroundColor": "#F7F7F7",
+		"list": [{
+			"pagePath": "pages/profile/index",
+			"iconPath": "static/icons/user.png",
+			"selectedIconPath": "static/icons/user-active.png"
+
+		}, {
+			"pagePath": "pages/message/index",
+			"iconPath": "static/icons/message.png",
+			"selectedIconPath": "static/icons/message-active.png"
+
+		}, {
+			"pagePath": "pages/setting/index",
+			"iconPath": "static/icons/setting.png",
+			"selectedIconPath": "static/icons/setting-active.png"
+
+		}]
+	}
+}

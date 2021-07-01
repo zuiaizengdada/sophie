@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2635892 */
+  src: url('//at.alicdn.com/t/font_2635892_gm02zrjvarc.woff2?t=1625133236851') format('woff2'),
+       url('//at.alicdn.com/t/font_2635892_gm02zrjvarc.woff?t=1625133236851') format('woff'),
+       url('//at.alicdn.com/t/font_2635892_gm02zrjvarc.ttf?t=1625133236851') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-message:before {
+  content: "\e7ae";
+}
+
+.icon-message-active:before {
+  content: "\e6aa";
+}
+
+.icon-setting-active:before {
+  content: "\e611";
+}
+
+.icon-user:before {
+  content: "\e609";
+}
+
+.icon-user-active:before {
+  content: "\e7ac";
+}
+
+.icon-setting:before {
+  content: "\e7ad";
+}
+
+.icon-fangdajing:before {
+  content: "\e6cf";
+}
+
+.icon-biaoqing:before {
+  content: "\e659";
+}
+
+.icon-shipin:before {
+  content: "\e71f";
+}
+
+.icon-plus:before {
+  content: "\e608";
+}
+
+.icon-phone:before {
+  content: "\e660";
+}
+
+.icon-xinxi:before {
+  content: "\e7ab";
+}
+
+.icon-addUser:before {
+  content: "\e6c9";
+}
+
+.icon-huanyipi:before {
+  content: "\e648";
+}
