@@ -19,10 +19,9 @@
 /*通用 */
 
 
-/* view{
-	font-size:28rpx;
-	line-height:1.8;
-} */
+view{
+	box-sizing: border-box;
+}
 progress,
 checkbox-group {
 	width: 100%;
